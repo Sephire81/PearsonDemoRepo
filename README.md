@@ -19,6 +19,16 @@ Assumptions, misinput etc.
 ### Proposed
 ![parcelforce potential improvements_page-0001](https://github.com/Sephire81/PearsonDemoRepo/assets/115628137/19fc8949-e233-4280-b657-9eff7d6ea8c0)
 
+
+# Tracking Automation
+## Current
+![Tracking Cycle](https://github.com/Sephire81/PearsonDemoRepo/assets/115628137/145ad5d6-0c19-4e57-aa99-f49bcbdaf525)
+
+## Proposed
+![Automated Tracking Cycle](https://github.com/Sephire81/PearsonDemoRepo/assets/115628137/cff6171a-86d4-4724-acee-ac4f4cfb1737)
+
+
+
 # Demos
 ## Data Duplication
 
