@@ -1,0 +1,23 @@
+Tracking
+--------
+Do tracking in incognito - Server returns 429 after too many requests, incognito bypasses error 429 (Error can still occur after more usage)
+Give tracking id to program.
+Enter number -> tracking box - id = "edit-parcel-tracking-number", track button - input - id="edit-submit"
+go to tbody, get top element of tbody then look at td[class="tracking-history-desc"]/p.first
+Handle exception of tracking being wrong.
+Upload "User \t tracking_id \t status" to clipboard. If status is "Delivered" also append "\t date" with date in format dd/mm/yyyy
+
+If one of descs below can't be found, advise user to manually track.
+
+Successful descs:
+- Collected by the addressee
+- Delivered
+- Delivered to neighbour
+- Addressee to collect from Post Office [Office may not actually be on it]
+- Addressee advised to pick up  from Post Office
+- Addressee advised to collect from Post (office)
+- Addressee advised to collect from depot -> Returned to depot
+- Out for delivery
+- Delivery attempted
+- Held in depot for redelivery
+- Prepared for delivery

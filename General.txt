@@ -1,0 +1,4 @@
+Tag all automated processes for error tracing.
+Log all program actions to find breakpoints.
+Timestamp everything.
+Session timed out due to inactivity. Occurs on PF and Gateway. Clicking okay on gateway just resets page to no AA entered. PF sends you to login screen. Maybe just refresh tab after 5 minutes of inactivity?

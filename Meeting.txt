@@ -1,0 +1,47 @@
+Background
+---------------------
+MENG CS Durham -> Done coursework involving spreadsheet manipulation. Submodule on DBs and Networks. GUI work for some coursework and freelance job -> Been programming for over 10 years.
+
+Proposal
+---------------------
+Range of things I can do - Small auxiliary suite of tools -> DBMS(ish) System that works with the suite of tools. Really a case of, how much do you want? If you have suggestions, I can take a look and decide whether or not it's something I could do.
+
+Suite of tools would be built with DBMS in mind (whether creating it or not) so if later decide you want DBMS, integration is easier -> Modular Object-Oriented System.
+
+
+Issues addressed by proposal
+-----------------------------
+Human error propagating throughout processes leading to things like incorrect data entry, delivery to wrong address, wrong script delivery etc. 
+Increases speed of processing whilst giving higher data robustness.
+Increased accessibility for employees -> current system uses several webpages with no guidance on the process. 
+Is often unintuitive for new starters and may be overwhelming for some -> New system would essentially be a step-by-step guide but you only see one step at a time.
+
+Does not seek to replace people. Instead, aims to increase their QoL at work through abstraction.
+
+
+Things I need
+--------------- 
+Abstract top-down view of process interactions. E.g. Reconcile affects book in, which affects picking etc.
+Key concern here is the interaction of unmarked processes that I'm familiar with, with processes that aren't part of my team as I'm ignorant of their existence.
+
+Detailed procedure for each process. I.e. what websites we go to, what spreadsheets are looked at/updated etc.
+
+Either Python Venv in work or bring Laptop and plug into network -> Access to sample data for testing.
+
+Separate contract -> Not doing for £12 an hour during office hours + That would push extra work onto other people in team.
+
+
+Time Span
+-----------
+Obvs depends on extent of programming wanted. Can sit and work out deadlines with you. Work in phases:
+
+- Requirement Phase -> Work with yourselves to decide what is being done, what is required to complete that thing, potential risks (e.g. cross-process interactions) and mitigations.
+
+- Design Phase -> Data (paper) flow diagrams (to map cross-interactions), system design (modular OOP), For DBMS, DB structure.
+
+- Development Phase -> Actual coding of the software.
+
+- Testing Phase -> Intertwined with dev phase, small scale tests on either mock data or real but tightly controlled and human-validated papers.
+
+- Deployment Phase -> Small overlap with testing phase, deploy to employees, gather feedback on the software. React proactively to bugs.
+

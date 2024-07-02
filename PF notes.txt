@@ -1,0 +1,34 @@
+Parcelforce.net
+--------
+
+Enter login details and submit to login to dashboard
+
+Find 'enter a shipment' by href
+
+Product needs choosing on every load -> Constant loading could upset Parcelforce system -> Run Parcelforce as a thread?
+
+Input "E"+UN in address book
+
+Need to test if label still pops up on headless mode or not -> if not, how does object handle this?
+
+If address doesn't show up, wait x time then re-enter address code just in case error occurred.
+
+Input address may cause address verification tab to open -> Again if it appears in headless this is fine. Otherwise, issue. Need to have a wait function to see if verification tab opens. Once verification closes, need to re-type business name before processing.
+
+May get logged out due to inactivity, but this only occurs after trying to enter address code. If address code is entered, check to see if back on login screen.
+
+Always make user select number of return parcels (possibly from dropdown list).
+
+--------
+
+
+Gateway
+--------
+Attempt to load, if login needed, prompt user for their login on the GUI
+
+Address in gateway may be over several lines, e.g. address = 4 \n street
+
+Compare postcode and town as two separate comparisons.
+
+Flag mismatches to user (Highlight in orange maybe).
+-------

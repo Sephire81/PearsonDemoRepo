@@ -1,0 +1,13 @@
+If no file exists, create one and brute-force every AA number on Parcelforce AND gateway.
+Use fuzzy or jellyfish, if there is discrepancy, note it somewhere.
+Once brute-force is done. Prompt to clean the discrepant numbers and push updates to PF address book.
+
+Once a day/week, run the script again. Instead of new file, use the previous file and do a quick compare of gateway and the stored AA address.
+Again, use fuzzy/jellyfish, note discrepancies, clean them.
+Store results in csv.
+Store backups.
+
+Needs - Access to gateway, access to parcel force, List of AA numbers in use would be very useful.
+
+Gateway postcode may be written correctly (with space) or contain no spaces. 
+Postcodes are either *** *** or **** *** so just hard code that. Parcelforce won't take it without the space.
